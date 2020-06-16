@@ -1,0 +1,56 @@
+export CC=gcc
+export MAKE=make
+export RM=rm -rf
+export AR=ar
+
+#*************************************************************#
+#***************define for Cu module**************************#
+#*************************************************************#
+GLOBAL_INCLUDE+=-I${G_ROOT_DIR}/Include
+
+
+DFLAGS =${GLOBAL_INCLUDE} 
+CFLAGS =${GLOBAL_INCLUDE} 
+CFLAGS +=-DTVER=1001 -O0 -g3 -fPIC -rdynamic -L${G_TARGET_DIR} -Wall
+CFLAGS +=-DLINUX
+CFLAGS +=-D__CKERNEL__
+CFLAGS +=-DOS_LINUX
+CFLAGS +=-DVOS_MODULE_CLI
+
+
+M_D_LIBS += -lpthread
+M_D_LIBS += -lrt
+M_D_LIBS += -lconfig 
+M_D_LIBS += -lxml2 
+M_D_LIBS += -ldl
+
+
+
+M_D_LIBS += -lrohc 
+M_D_LIBS += -lrohc_decomp
+M_D_LIBS += -lrohc_comp
+M_D_LIBS += -lrohc_common
+
+
+M_CUUP_LIB += ${G_ROOT_DIR}/lib/libgros.a
+M_ASN_LIB += ${G_ROOT_DIR}/lib/libngapasn.a
+M_ASN_LIB += ${G_ROOT_DIR}/lib/libe1apasn.a
+M_ASN_LIB += ${G_ROOT_DIR}/lib/libf1apasn.a
+M_ASN_LIB += ${G_ROOT_DIR}/lib/librrcasn.a
+M_CUUP_LIB += ${G_ROOT_DIR}/lib/libOamCuAdp.a 
+M_CUUP_LIB += ${G_ROOT_DIR}/lib/libE1ap.a
+M_CUUP_LIB += ${G_ROOT_DIR}/lib/libCommon.a 
+M_CUUP_LIB += ${G_ROOT_DIR}/lib/libCuUp.a 
+M_CUUP_LIB += ${G_ROOT_DIR}/lib/libF1u.a 
+M_CUUP_LIB += ${G_ROOT_DIR}/lib/libGtpu.a 
+M_CUUP_LIB += ${G_ROOT_DIR}/lib/libOamCuAdp.a 
+M_CUUP_LIB += ${G_ROOT_DIR}/lib/libTool.a 
+
+export DFLAGS
+export CFLAGS
+export M_D_LIBS
+export M_PLATFORM_LIB
+export M_ASN_LIB
+export M_CUUP_LIB
+export TTTT="1234567890"
+

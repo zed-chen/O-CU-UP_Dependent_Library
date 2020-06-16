@@ -1,0 +1,32 @@
+/home/smb/OSC0616v1_backup/make_config/../target/app/objs/main.o /home/smb/OSC0616v1_backup/make_config/../target/app/deps/main.d :/home/smb/OSC0616v1_backup/Cu/CuUpApp/Src/main.c \
+ /home/smb/OSC0616v1_backup/make_config/../Include/vos_common.h \
+ /home/smb/OSC0616v1_backup/make_config/../Include/vos_lib.h \
+ /home/smb/OSC0616v1_backup/make_config/../Include/vos_types.h \
+ /home/smb/OSC0616v1_backup/make_config/../Include/vos_sys_diff.h \
+ /home/smb/OSC0616v1_backup/make_config/../Include/vos_module.h \
+ /home/smb/OSC0616v1_backup/make_config/../Include/vos_timer.h \
+ /home/smb/OSC0616v1_backup/make_config/../Include/vos_que.h \
+ /home/smb/OSC0616v1_backup/make_config/../Include/vos_socket.h \
+ /home/smb/OSC0616v1_backup/make_config/../Include/vos_sctp.h \
+ /home/smb/OSC0616v1_backup/make_config/../Include/vos_linklist.h \
+ /home/smb/OSC0616v1_backup/make_config/../Include/plat_syslog.h \
+ /home/smb/OSC0616v1_backup/make_config/../Include/vos_common.h \
+ /home/smb/OSC0616v1_backup/make_config/../Include/vos_task.h \
+ /home/smb/OSC0616v1_backup/make_config/../Include/vos_sem.h \
+ /home/smb/OSC0616v1_backup/make_config/../Include/vos_ctype.h \
+ /home/smb/OSC0616v1_backup/make_config/../Include/vos_string.h \
+ /home/smb/OSC0616v1_backup/make_config/../Include/vos_sysmsg.h \
+ /home/smb/OSC0616v1_backup/make_config/../Include/vos_byteorder.h \
+ /home/smb/OSC0616v1_backup/make_config/../Include/platform_module_names.h \
+ /home/smb/OSC0616v1_backup/make_config/../Include/sys_main_api.h \
+ /home/smb/OSC0616v1_backup/make_config/../Include/vos_time.h \
+ /home/smb/OSC0616v1_backup/make_config/../Include/vos_cli.h \
+ /home/smb/OSC0616v1_backup/make_config/../Include/plat_alarm.h \
+ /home/smb/OSC0616v1_backup/make_config/../Include/plat_db.h \
+ /home/smb/OSC0616v1_backup/make_config/../Include/gnbCommon.h \
+ /home/smb/OSC0616v1_backup/make_config/../Include/vos_sockMgr.h \
+ /home/smb/OSC0616v1_backup/make_config/../Include/gnbServiceType.h \
+ /home/smb/OSC0616v1_backup/make_config/../Include/cuCommon.h \
+ /home/smb/OSC0616v1_backup/make_config/../Include/gnbCommon.h \
+ /home/smb/OSC0616v1_backup/make_config/../Include/omCuupApi.h \
+ /home/smb/OSC0616v1_backup/make_config/../Include/cuupProtocolPara.h
