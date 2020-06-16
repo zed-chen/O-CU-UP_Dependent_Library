@@ -1,0 +1,420 @@
+/******************************************************************************
+###############################################################################
+#   Copyright (c) [2017-2020] [ICT/CAS]                                        #
+#   Licensed under the ORAN Software License v1.0 (License)             #
+###############################################################################
+******************************************************************************/
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--  
+	AlarmRoot 文件根节点 
+	  属性：
+		size：模块（AlarmTable）的个数，每增加一个模块时，同步加1
+		
+	AlarmTable，一般一个模块为一个table 
+	  属性：
+		type:告警模块，按模块划分，第一个模块(AlarmTable)为1,后边模块依次递增
+		size：AlarmItem、AlarmItemPartner的总个数
+		
+	AlarmItem 为一条告警定义，与AlarmItemPartner互为伙伴告警
+	  属性：
+		ID:alarmID        告警ID，一个AlarmTable内从1开始递增，不能间断
+		iN:indexNum       调用上报告警API时，传入设备索引参数的个数
+		iC:indexCombined  调用上报告警API时，第一个参数（一般为devIndex）是为组合式索引
+		hP:havePartner    告警是否有伙伴告警， 1 - 有，0 - 没有。
+		lv:alarmLevel     告警级别，	1,	///< VITAL 紧急告警
+										2,	///< MAJOR 重要告警
+										3,	///< MINOR 错误消息
+										4,	///< WARNING 警告，一般告警
+										5,	///< CLEAR 告警清除   
+										6,	///< EVENT-NOTICE，通知消息
+										
+										CLEAR 级别为Partner告警
+										大家定义时建议一般为 MAJOR 重要告警，EVENT-NOTICE，通知消息为一般成功类的事件，如升级成功，设备上线，小区配置成功
+										
+		pri:priorty       优先级        1-优先级高；  0-优先级低；优先级高的告警会在记录时单独记录一份，
+		                                一般将会导致设备宕机，设备离线的告警设置为高优先级
+		mF:maskFlag       告警掩码，1-不处理该告警；0-处理该告警，一般默认为0。
+		sF:synFlag        处理标记，1-保存到当前告警状态表，0-不保存。  级别1-4 为 1，级别5-6 为0
+		tF:tranFlag       trap发送使能，1-发送trap；0-不发trap。该属性如果不定义则默认为1。当此告警不希望发trap时可以定义此属性为0。
+		indexFormat       打印告警时，设备索引显示格式，不包含设备索引中的的第一个。例如：传的索引为devID,slotID,portID 则格式为 slot %ld,port %ld 或 %ld/%ld
+		paraFormat        打印告警时，携带参数显示格式
+		eventLogDesc      打印告警时，显示的告警描述
+		
+		最终显示字符串为 ${devName} ${eventLogDesc} ${indexFormat} ${paraFormat}
+		
+		
+	*****所有字段都要有，否则无法通过参数检查*****
+	
+	
+	示例	
+	<AlarmTable name="dev_table" type="1" size="6"  >
+		<AlarmItem ID="1" iN="1" iC="0" hP="1" lv="1" pri="1" mF="0" sF="1" name="deviceTemperatureHigh">
+			<eventLogDesc>temperature high</eventLogDesc>
+			<indexFormat></indexFormat>
+			<paraFormat>cur %ld threshold %ld</paraFormat>
+			<AlarmItemPartner ID="2" iN="1" iC="0" hP="0" lv="5" pri="1" mF="0" sF="1" name="deviceTemperatureNormal">
+				<eventLogDesc>temperature normal</eventLogDesc>
+				<indexFormat></indexFormat>
+				<paraFormat>cur %ld threshold %ld end</paraFormat>
+			</AlarmItemPartner>
+		</AlarmItem>
+		
+		<AlarmItem ID="3" iN="1" iC="0" hP="1" lv="1" pri="1" mF="0" sF="0" name="deviceStartup">
+			<eventLogDesc>startup</eventLogDesc>
+			<indexFormat></indexFormat>
+			<paraFormat>%ld %s %s</paraFormat>
+		</AlarmItem>	
+	</AlarmTable>
+	
+-->
+
+
+<AlarmRoot tname="root table" size="6">
+	<config>
+		<devname>JT SRAN</devname>
+		<version>V1</version>
+	</config>
+	
+	<!-- JtSranAlarmSrc  
+	      字节(0-7)    含义
+		  0            dev       设备（不关心）
+	 -->
+	<AlarmTable name="dev_table" type="1" size="9" baseOid="" >
+
+		<AlarmItem ID="1" iN="1" iC="0" hP="0" lv="6" pri="0" mF="0" sF="0" name="omProgramStartSuccess">
+			<eventLogDesc>om program start successfully</eventLogDesc>
+			<indexFormat></indexFormat>
+			<paraFormat></paraFormat>
+        </AlarmItem>
+
+		<AlarmItem ID="2" iN="1" iC="0" hP="0" lv="6" pri="0" mF="0" sF="0" name="omVerUpdateSuccess">
+			<eventLogDesc>om version update success</eventLogDesc>
+			<indexFormat></indexFormat>
+			<paraFormat></paraFormat>
+		</AlarmItem>
+		
+		<AlarmItem ID="3" iN="1" iC="0" hP="0" lv="6" pri="0" mF="0" sF="0" name="omVerUpdateFail">
+			<eventLogDesc>om version update fail</eventLogDesc>
+			<indexFormat></indexFormat>
+			<paraFormat></paraFormat>
+		</AlarmItem>
+		
+		<AlarmItem ID="4"  iN="1" iC="0" hP="0" lv="6" pri="0" mF="0" sF="0" name="omcVersionCfgFileUpdateSuccess">
+			<eventLogDesc>omc version config file update success</eventLogDesc>
+			<indexFormat></indexFormat>
+			<paraFormat></paraFormat>
+		</AlarmItem>
+		
+		<AlarmItem ID="5"  iN="1" iC="0" hP="0" lv="6" pri="0" mF="0" sF="0" name="omcVersionCfgFileUpdateFile">
+			<eventLogDesc>omc version config file update fail</eventLogDesc>
+			<indexFormat></indexFormat>
+			<paraFormat></paraFormat>
+		</AlarmItem>
+		
+		<AlarmItem ID="6"  iN="1" iC="0" hP="0" lv="6" pri="0" mF="0" sF="0" name="macSwUpdateSuccess">
+			<eventLogDesc>mac sw update success</eventLogDesc>
+			<indexFormat></indexFormat>
+			<paraFormat></paraFormat>
+		</AlarmItem>
+		
+		<AlarmItem ID="7" iN="1" iC="0" hP="0" lv="6" pri="0" mF="0" sF="0" name="macSwUpdateFail">
+			<eventLogDesc>mac sw update fail</eventLogDesc>
+			<indexFormat></indexFormat>
+			<paraFormat></paraFormat>
+		</AlarmItem>
+		
+		<AlarmItem ID="8"  iN="1" iC="0" hP="0" lv="6" pri="0" mF="0" sF="0" name="phySwUpdateSuccess">
+			<eventLogDesc>phy sw update success</eventLogDesc>
+			<indexFormat></indexFormat>
+			<paraFormat>file %s</paraFormat>
+		</AlarmItem>
+		
+		<AlarmItem ID="9"  iN="1" iC="0" hP="0" lv="6" pri="0" mF="0" sF="0" name="phySwUpdateFail">
+			<eventLogDesc>phy sw update fail</eventLogDesc>
+			<indexFormat></indexFormat>
+			<paraFormat></paraFormat>
+		</AlarmItem>
+		
+	</AlarmTable>
+	
+	<!-- JtSranAlarmSrc  
+	      字节(0-7)    含义
+		  0            dev       设备（不关心）
+		  1            slot      槽位号
+	 -->
+	<AlarmTable name="board_table" type="2" size="13" baseOid="" >
+		<AlarmItem ID="1" iN="2" iC="0" hP="1" lv="2" pri="1" mF="0" sF="1" name="deviceFanSpeedHigh"  >
+			<eventLogDesc>Fan speed high</eventLogDesc>
+			<indexFormat>slot %ld</indexFormat>
+			<paraFormat></paraFormat>
+			<AlarmItemPartner ID="2" iN="2" iC="0" hP="0" lv="5" pri="0" mF="0" sF="0" name="deviceFanSpeedNormal"  >
+				<eventLogDesc>fan speed normal</eventLogDesc>
+				<indexFormat>slot %ld</indexFormat>
+				<paraFormat></paraFormat>
+			</AlarmItemPartner>
+		</AlarmItem>	
+
+		<AlarmItem ID="3" iN="2" iC="0" hP="1" lv="1" pri="1" mF="0" sF="1" name="CpuUtilizationHigh"  >
+			<eventLogDesc>Cpu Utilization High</eventLogDesc>
+			<indexFormat>slot %ld</indexFormat>
+			<paraFormat></paraFormat>
+			<AlarmItemPartner ID="4" iN="2" iC="0" hP="0" lv="5" pri="0" mF="0" sF="0" name="CpuUtilizationNormal"  >
+				<eventLogDesc>Cpu Utilization Normal</eventLogDesc>
+				<indexFormat>slot %ld</indexFormat>
+				<paraFormat></paraFormat>
+			</AlarmItemPartner>
+		</AlarmItem>	
+		
+		<AlarmItem ID="5"  iN="2" iC="0" hP="1" lv="1" pri="1" mF="0" sF="1" name="MemoryUtilizationHigh"  >
+ 			<eventLogDesc>Memory Utilization High</eventLogDesc>
+			<indexFormat>slot %ld</indexFormat>
+			<paraFormat></paraFormat>
+			<AlarmItemPartner ID="6" iN="2" iC="0" hP="0" lv="5" pri="0" mF="0" sF="0" name="MemoryUtilizationHigh"  >
+				<eventLogDesc>Memory Utilization Normal</eventLogDesc>
+				<indexFormat>slot %ld</indexFormat>
+				<paraFormat></paraFormat>
+			</AlarmItemPartner>
+		</AlarmItem>	
+		
+		<AlarmItem ID="7" iN="2" iC="0" hP="1" lv="1" pri="1" mF="0" sF="1" name="FpgaServerFault"  >
+			<eventLogDesc>Fpga Server Fault,the heartbeat lost</eventLogDesc>
+			<indexFormat>slot %ld</indexFormat>
+			<paraFormat></paraFormat>
+			<AlarmItemPartner ID="8" iN="2" iC="0" hP="0" lv="5" pri="0" mF="0" sF="0" name="FpgaServerNormal"  >
+				<eventLogDesc>Fpga Server Normal</eventLogDesc>
+				<indexFormat>slot %ld</indexFormat>
+				<paraFormat></paraFormat>
+			</AlarmItemPartner>
+		</AlarmItem>	
+		
+		<AlarmItem ID="9" iN="2" iC="0" hP="1" lv="1" pri="1" mF="0" sF="1" name="deviceClockSynchronizationFault"  >
+			<eventLogDesc>Clock Synchronization Fault</eventLogDesc>
+			<indexFormat>slot %ld</indexFormat>
+			<paraFormat></paraFormat>
+			<AlarmItemPartner ID="10" iN="2" iC="0" hP="0" lv="5" pri="0" mF="0" sF="0" name="deviceClockSynchronizationNormal"  >
+				<eventLogDesc>Clock Synchronization Normal</eventLogDesc>
+				<indexFormat>slot %ld</indexFormat>
+				<paraFormat></paraFormat>
+			</AlarmItemPartner>
+		</AlarmItem>
+
+		<AlarmItem ID="11" iN="2" iC="0" hP="0" lv="6" pri="0" mF="0" sF="0" name="boardHotInsert">
+			<eventLogDesc>board hot insert</eventLogDesc>
+			<indexFormat>slot %ld</indexFormat>
+			<paraFormat></paraFormat>
+        	</AlarmItem>
+
+        	<AlarmItem ID="12" iN="2" iC="0" hP="0" lv="6" pri="0" mF="0" sF="0" name="boardHotPull">
+			<eventLogDesc>board hot pull</eventLogDesc>
+			<indexFormat>slot %ld</indexFormat>
+			<paraFormat></paraFormat>
+        	</AlarmItem>
+
+        	<AlarmItem ID="13" iN="2" iC="0" hP="0" lv="6" pri="0" mF="0" sF="0" name="boardHotReboot">
+			<eventLogDesc>board hot reboot</eventLogDesc>
+			<indexFormat>slot %ld</indexFormat>
+			<paraFormat></paraFormat>
+        	</AlarmItem>
+
+	</AlarmTable>
+
+	<!-- JtSranAlarmSrc  
+	      字节(0-7)    含义
+		  0            dev       设备（不关心）
+		  1            slot      槽位号
+		  2            chipID    芯片号
+	 -->
+	<AlarmTable name="chip_table" type="3" size="8" baseOid="" >
+		<AlarmItem ID="1"  iN="3" iC="0" hP="1" lv="2" pri="1" mF="0" sF="1" name="deviceTemperatureHigh">
+			<eventLogDesc>temperature high</eventLogDesc>
+			<indexFormat>slot %ld,ChipId %ld</indexFormat>
+			<paraFormat></paraFormat>
+			<AlarmItemPartner ID="2" iN="3" iC="0" hP="0" lv="5" pri="0" mF="0" sF="0" name="deviceTemperatureNormal">
+				<eventLogDesc>temperature normal</eventLogDesc>
+				<indexFormat>slot %ld,ChipId %ld</indexFormat>
+				<paraFormat></paraFormat>
+			</AlarmItemPartner>
+		</AlarmItem>
+				
+		<AlarmItem ID="3" iN="3" iC="0" hP="1" lv="2" pri="1" mF="0" sF="1" name="deviceVoltageHigh"  >
+			<eventLogDesc>Voltage high</eventLogDesc>
+			<indexFormat>slot %ld,ChipId %ld</indexFormat>
+			<paraFormat></paraFormat>
+			<AlarmItemPartner ID="4" iN="3" iC="0" hP="0" lv="5" pri="0" mF="0" sF="0" name="deviceVoltageNormal"  >
+				<eventLogDesc>Voltage normal</eventLogDesc>
+				<indexFormat>slot %ld,ChipId %ld</indexFormat>
+				<paraFormat></paraFormat>
+			</AlarmItemPartner>
+		</AlarmItem>	
+		
+		<AlarmItem ID="5" iN="3" iC="0" hP="1" lv="1" pri="1" mF="0" sF="1" name="DataFpgaFault"  >
+			<eventLogDesc>Data Fpga Fault</eventLogDesc>
+			<indexFormat>slot %ld,ChipId %ld</indexFormat>
+			<paraFormat></paraFormat>
+			<AlarmItemPartner ID="6" iN="3" iC="0" hP="0" lv="5" pri="0" mF="0" sF="0" name="DataFpgaNormal"  >
+				<eventLogDesc>Data Fpga Normal</eventLogDesc>
+				<indexFormat>slot %ld,ChipId %ld</indexFormat>
+				<paraFormat></paraFormat>
+			</AlarmItemPartner>
+		</AlarmItem>	
+
+		<AlarmItem ID="7" iN="3" iC="0" hP="0" lv="6" pri="0" mF="0" sF="0" name="fpgaFwUpdataSuccess">
+			<eventLogDesc>fpga firmware update success</eventLogDesc>
+			<indexFormat>slot %ld,chip %ld</indexFormat>
+			<paraFormat></paraFormat>
+        </AlarmItem>
+		
+		<AlarmItem ID="8" iN="3" iC="0" hP="0" lv="6" pri="0" mF="0" sF="0" name="fpgaFwUpdataFail">
+			<eventLogDesc>fpga firmware update fail</eventLogDesc>
+			<indexFormat>slot %ld chip %ld</indexFormat>
+			<paraFormat></paraFormat>
+		</AlarmItem>
+	
+	</AlarmTable>
+
+	<!-- JtSranAlarmSrc  
+	      字节(0-7)    含义
+		  0            dev
+		  1            slot
+		  2            chipID
+		  3            portID    ID 1,2为光口号，ID 3,4 为10GE数据端口
+	 -->	
+	<AlarmTable name="port_table" type="4" size="4" baseOid="" >
+		<AlarmItem ID="1" iN="4" iC="0" hP="1" lv="2" pri="1" mF="0" sF="1" tF="1" name="port_RRUM_CPRI_PATH_ABNORMAL">
+			<eventLogDesc>cpri port abnormal</eventLogDesc>
+			<indexFormat>slot %ld fpga %ld port %ld</indexFormat>
+			<paraFormat></paraFormat>
+				<AlarmItemPartner ID="2" iN="4" iC="0" hP="0" lv="5" pri="1" mF="0" sF="0" tF="1" name="port_RRUM_CPRI_PATH_ABNORMAL_CLEAR">
+					<eventLogDesc>cpri port abnormal clear</eventLogDesc>
+					<indexFormat>slot %ld fpga %ld port %ld</indexFormat>
+					<paraFormat></paraFormat>
+				</AlarmItemPartner>
+		</AlarmItem>
+
+		<AlarmItem ID="3" iN="4" iC="0" hP="1" lv="1" pri="1" mF="0" sF="1" name="DataPortFault"  >
+			<eventLogDesc>Data Port Fault</eventLogDesc>
+			<indexFormat>slot %ld,ChipId %ld,Port %ld</indexFormat>
+			<paraFormat></paraFormat>
+			<AlarmItemPartner ID="4" iN="4" iC="0" hP="0" lv="5" pri="0" mF="0" sF="0" name="DataPortNormal"  >
+				<eventLogDesc>Data Port Normal</eventLogDesc>
+				<indexFormat>slot %ld,ChipId %ld,Port %ld</indexFormat>
+				<paraFormat></paraFormat>
+			</AlarmItemPartner>
+		</AlarmItem>		
+
+	</AlarmTable>
+
+	<!-- JtSranAlarmSrc  
+	      字节(0-7)    含义
+		  0            dev
+		  1            slot
+		  2            chipID
+		  3            portID    光口号
+		  4            rruLv     rru级联数
+	 -->	
+	<AlarmTable name="rru_table" type="5" size="4" baseOid="" >
+		<AlarmItem ID="1" iN="5" iC="0" hP="0" lv="6" pri="1" mF="0" sF="0" tF="1" name="dev_RRUM_RRU_DOWN">
+			<eventLogDesc>RRU Down</eventLogDesc>
+			<indexFormat>slot %ld fpga %ld port %ld level %ld</indexFormat>
+			<paraFormat></paraFormat>
+		</AlarmItem>
+		
+		<AlarmItem ID="2" iN="5" iC="0" hP="0" lv="6" pri="1" mF="0" sF="0" tF="1" name="dev_RRUM_RRU_UP">
+			<eventLogDesc>RRU Up</eventLogDesc>
+			<indexFormat>slot %ld fpga %ld port %ld level %ld</indexFormat>
+			<paraFormat></paraFormat>
+		</AlarmItem>
+
+		<AlarmItem ID="3" iN="5" iC="0" hP="0" lv="6" pri="0" mF="0" sF="0" tF="1" name="rruSwUpdateSuccess">
+			<eventLogDesc>rru sw update success</eventLogDesc>
+			<indexFormat>slot %ld fpga %ld port %ld level %ld</indexFormat>
+			<paraFormat></paraFormat>
+		</AlarmItem>
+		
+		<AlarmItem ID="4" iN="5" iC="0" hP="0" lv="6" pri="0" mF="0" sF="0" tF="1" name="rruSwUpdateFail">
+			<eventLogDesc>rru sw update fail</eventLogDesc>
+			<indexFormat>slot %ld fpga %ld port %ld level %ld</indexFormat>
+			<paraFormat></paraFormat>
+		</AlarmItem>
+			
+	</AlarmTable>
+
+	<!-- JtSranAlarmSrc  
+	      字节(0-7)    含义
+          0-3          小区ID 
+	 -->
+	<AlarmTable name="cell_table" type="6" size="10" baseOid="" >
+        
+        <!-- cell setup success response -->
+		<AlarmItem ID="1" iN="2" iC="0" hP="0" lv="6" pri="0" mF="0" sF="1" tF="1" name="cellSetupSuccRsp">
+			<eventLogDesc>cell set up success response: </eventLogDesc>
+			<indexFormat>cellGID %ld; </indexFormat>
+			<paraFormat>Rslt=%ld, Description:%s.</paraFormat>
+		</AlarmItem>
+        
+        <!-- cell setup failed response -->
+		<AlarmItem ID="2" iN="2" iC="0" hP="0" lv="6" pri="0" mF="0" sF="1" tF="1" name="cellSetupFailRsp">
+			<eventLogDesc>cell set up failed response: </eventLogDesc>
+			<indexFormat>cellGID %ld; </indexFormat>
+			<paraFormat>Rslt=%ld, Description:%s.</paraFormat>
+		</AlarmItem>
+        
+        <!-- cell delete success response -->
+		<AlarmItem ID="3" iN="2" iC="0" hP="0" lv="6" pri="0" mF="0" sF="1" tF="1" name="cellDeleteSuccRsp">
+			<eventLogDesc>cell delete success response: </eventLogDesc>
+			<indexFormat>cellGID %ld; </indexFormat>
+			<paraFormat>Rslt=%ld, Description:%s.</paraFormat>
+		</AlarmItem>
+        
+        <!-- cell delete success response -->
+		<AlarmItem ID="4" iN="2" iC="0" hP="0" lv="6" pri="0" mF="0" sF="1" tF="1" name="cellDeleteFailRsp">
+			<eventLogDesc>cell delete failed response: </eventLogDesc>
+			<indexFormat>cellGID %ld; </indexFormat>
+			<paraFormat>Rslt=%ld, Description:%s.</paraFormat>
+		</AlarmItem>
+        
+        <!-- cell errno report -->
+		<AlarmItem ID="5" iN="2" iC="0" hP="1" lv="1" pri="0" mF="0" sF="1" tF="1" name="cellErrnoReport">
+			<eventLogDesc>cell errno report: </eventLogDesc>
+			<indexFormat>cellGID %ld; </indexFormat>
+			<paraFormat>Rslt=%ld, Description:%s.</paraFormat>
+			
+			<!-- cell errno clear -->
+			<AlarmItemPartner ID="6" iN="2" iC="0" hP="0" lv="5" pri="0" mF="0" sF="1" tF="1" name="cellErrnoClear">
+				<eventLogDesc>cell errno clear: </eventLogDesc>
+				<indexFormat>cellGID %ld; </indexFormat>
+				<paraFormat>Rslt=%ld, Description:%s.</paraFormat>
+			</AlarmItemPartner>
+		</AlarmItem>
+        
+        <!-- cell mac alarm report -->
+		<AlarmItem ID="7" iN="2" iC="0" hP="1" lv="1" pri="0" mF="0" sF="1" tF="1" name="cellMacAlrReport">
+			<eventLogDesc>cell mac alarm report: </eventLogDesc>
+			<indexFormat>cellGID %ld; </indexFormat>
+			<paraFormat>Rslt=%ld, Description:%s.</paraFormat>
+			
+			<!-- cell mac alarm clear -->
+			<AlarmItemPartner ID="8" iN="2" iC="0" hP="0" lv="5" pri="0" mF="0" sF="1" tF="1" name="cellMacAlrClear">
+				<eventLogDesc>cell mac alarm clear: </eventLogDesc>
+				<indexFormat>cellGID %ld; </indexFormat>
+				<paraFormat>Rslt=%ld, Description:%s.</paraFormat>
+			</AlarmItemPartner>
+		</AlarmItem>
+        
+        <!-- cell phy alarm report -->
+		<AlarmItem ID="9" iN="2" iC="0" hP="1" lv="4" pri="0" mF="0" sF="1" tF="1" name="cellPhyAlrReport">
+			<eventLogDesc>cell phy alarm report: </eventLogDesc>
+			<indexFormat>cellGID %ld; </indexFormat>
+			<paraFormat>Rslt=%ld, Description:%s.</paraFormat>
+			
+			<!-- cell phy alarm clear -->
+			<AlarmItemPartner ID="10" iN="2" iC="0" hP="0" lv="5" pri="0" mF="0" sF="1" tF="1" name="cellPhyAlrClear">
+				<eventLogDesc>cell phy alarm clear: </eventLogDesc>
+				<indexFormat>cellGID %ld; </indexFormat>
+				<paraFormat>Rslt=%ld, Description:%s.</paraFormat>
+			</AlarmItemPartner>
+		</AlarmItem>
+        
+	</AlarmTable>	
+
+</AlarmRoot>    

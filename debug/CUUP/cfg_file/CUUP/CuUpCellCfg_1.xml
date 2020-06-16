@@ -1,0 +1,40 @@
+/******************************************************************************
+###############################################################################
+#   Copyright (c) [2017-2020] [ICT/CAS]                                        #
+#   Licensed under the ORAN Software License v1.0 (License)             #
+###############################################################################
+******************************************************************************/
+<?xml  version="1.0" encoding="UTF-8" standalone="no"?>
+<CuUpCellCfg>
+  <cellId type="UINT32">1</cellId>
+  <e1setupRequestInfo type="struct">
+    <CNSupportType type="UINT8">1<!--ENUMERATED (EPC,5GC,both)--></CNSupportType>
+    <UpQosCapa type="UINT8">1<!--BIT0:1,支持非动态5QI机制;0,不支持非动态5QI机制. BIT1:1,支持动态5QI机制;0,不支持动态5QI机制--></UpQosCapa>
+    <fiveQI type="UINT8">1<!--取值范围:0~255--></fiveQI>
+    <qoSPrirotyLevel type="UINT8">1<!--取值范围:0~127--></qoSPrirotyLevel>
+    <averagingWindow type="UINT16">1<!--取值范围:0~4095--></averagingWindow>
+    <maxDataBurstVolume type="UINT16">1<!--取值范围:0~4095--></maxDataBurstVolume>
+  </e1setupRequestInfo>
+  <sliceSupportList type="struct">
+    <sliceSupportNum type="UINT8">3<!--取值范围1~1024(协议规定),目前取值范围1...3--></sliceSupportNum>
+    <sliceSupportInfo type="array" len="3">
+      <SST type="UINT8">
+        <v>0</v>
+        <v>1</v>
+        <v>2</v>
+        <!--为了支持网络切片,与SD字段可以组成S-NSSAI-->
+      </SST>
+      <SD_presence type="UINT8">
+        <v>0</v>
+        <v>1</v>
+        <v>2</v>
+        <!--SD配置标志位-->
+      </SD_presence>
+      <SD type="UINT32">
+        <v>0</v>
+        <v>1</v>
+        <v>2</v>
+      </SD>
+    </sliceSupportInfo>
+  </sliceSupportList>
+</CuUpCellCfg>

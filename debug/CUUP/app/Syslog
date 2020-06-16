@@ -1,0 +1,496 @@
+$[INFO][UPC_USERTASK][ in upcContext.c:144] 2020.6.12 14:14:45: mnc1 : 1, mnc2: 1, mnc3:0, mcc1 :4, mcc2:6, mcc3:0
+$[DEBUG][CUUP_E1_USERTASK][ in e1apcommon.c:323] 2020.6.12 14:14:45: e1ap cuup module init complete! 
+$[ERROR][print_filter][vos_udp_server_socket_create in vos_socket.c:780] 2020.6.12 14:14:46: bind tcp socket
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:14:46: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:14:46: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:14:46: create sctp socket 
+$[INFO][UPC_USERTASK][ in upcMsgHdl.c:539] 2020.6.12 14:14:47: [UPC] E1ap sctp link is not ok ,please wait...! 
+$[INFO][UPC_USERTASK][ in upcMsgHdl.c:539] 2020.6.12 14:14:49: [UPC] E1ap sctp link is not ok ,please wait...! 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:14:49: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:14:49: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:14:49: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:14:49: create sctp socket 
+$[INFO][UPC_USERTASK][ in upcMsgHdl.c:539] 2020.6.12 14:14:51: [UPC] E1ap sctp link is not ok ,please wait...! 
+$[INFO][UPC_USERTASK][ in upcMsgHdl.c:539] 2020.6.12 14:14:53: [UPC] E1ap sctp link is not ok ,please wait...! 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:14:54: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:14:54: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:14:54: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:14:54: create sctp socket 
+$[INFO][UPC_USERTASK][ in upcMsgHdl.c:539] 2020.6.12 14:14:55: [UPC] E1ap sctp link is not ok ,please wait...! 
+$[INFO][UPC_USERTASK][ in upcMsgHdl.c:518] 2020.6.12 14:14:57: [UPC] E1ap sctp link is abnormal and have try max link attempt num : 6
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:14:59: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:14:59: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:14:59: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:14:59: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:15:4: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:15:4: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:15:4: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:15:4: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:15:9: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:15:9: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:15:9: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:15:9: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:15:14: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:15:14: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:15:14: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:15:14: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:15:19: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:15:19: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:15:19: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:15:19: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:15:24: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:15:24: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:15:24: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:15:24: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:15:29: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:15:29: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:15:29: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:15:29: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:15:34: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:15:34: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:15:34: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:15:34: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:15:39: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:15:39: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:15:39: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:15:39: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:15:44: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:15:44: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:15:44: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:15:44: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:15:49: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:15:49: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:15:49: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:15:49: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:15:54: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:15:54: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:15:54: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:15:54: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:15:59: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:15:59: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:15:59: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:15:59: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:16:4: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:16:4: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:16:4: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:16:4: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:16:9: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:16:9: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:16:9: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:16:9: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:16:14: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:16:14: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:16:14: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:16:14: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:16:19: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:16:19: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:16:19: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:16:19: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:16:24: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:16:24: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:16:24: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:16:24: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:16:29: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:16:29: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:16:29: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:16:29: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:16:34: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:16:34: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:16:34: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:16:34: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:16:39: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:16:39: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:16:39: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:16:39: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:16:44: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:16:44: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:16:44: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:16:44: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:16:49: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:16:49: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:16:49: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:16:49: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:16:54: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:16:54: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:16:54: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:16:54: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:16:59: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:16:59: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:16:59: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:16:59: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:17:4: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:17:4: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:17:4: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:17:4: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:17:9: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:17:9: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:17:9: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:17:9: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:17:14: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:17:14: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:17:14: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:17:14: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:17:19: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:17:19: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:17:19: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:17:19: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:17:24: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:17:24: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:17:24: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:17:24: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:17:29: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:17:29: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:17:29: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:17:29: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:17:34: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:17:34: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:17:34: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:17:34: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:17:39: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:17:39: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:17:39: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:17:39: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:17:44: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:17:44: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:17:44: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:17:44: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:17:49: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:17:49: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:17:49: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:17:49: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:17:54: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:17:54: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:17:54: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:17:54: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:17:59: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:17:59: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:17:59: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:17:59: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:18:4: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:18:4: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:18:4: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:18:4: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:18:9: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:18:9: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:18:9: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:18:9: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:18:14: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:18:14: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:18:14: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:18:14: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:18:19: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:18:19: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:18:19: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:18:19: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:18:24: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:18:24: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:18:24: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:18:24: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:18:29: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:18:29: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:18:29: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:18:29: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:18:34: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:18:34: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:18:34: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:18:34: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:18:39: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:18:39: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:18:39: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:18:39: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:18:44: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:18:44: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:18:44: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:18:44: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:18:49: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:18:49: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:18:49: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:18:49: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:18:54: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:18:54: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:18:54: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:18:54: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:18:59: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:18:59: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:18:59: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:18:59: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:19:4: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:19:4: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:19:4: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:19:4: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:19:9: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:19:9: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:19:9: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:19:9: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:19:14: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:19:14: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:19:14: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:19:14: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:19:19: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:19:19: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:19:19: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:19:19: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:19:24: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:19:24: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:19:24: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:19:24: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:19:29: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:19:29: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:19:29: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:19:29: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:19:34: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:19:34: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:19:34: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:19:34: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:19:39: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:19:39: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:19:39: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:19:39: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:19:44: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:19:44: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:19:44: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:19:44: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:19:49: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:19:49: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:19:49: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:19:49: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:19:54: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:19:54: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:19:54: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:19:54: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:19:59: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:19:59: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:19:59: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:19:59: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:20:4: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:20:4: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:20:4: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:20:4: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:20:9: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:20:9: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:20:9: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:20:9: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:20:14: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:20:14: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:20:14: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:20:14: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:20:19: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:20:19: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:20:19: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:20:19: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:20:24: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:20:24: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:20:24: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:20:24: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:20:29: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:20:29: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:20:29: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:20:29: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:20:34: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:20:34: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:20:34: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:20:34: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:20:39: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:20:39: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:20:39: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:20:39: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:20:44: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:20:44: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:20:44: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:20:44: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:20:49: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:20:49: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:20:49: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:20:49: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:20:54: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:20:54: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:20:54: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:20:54: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:20:59: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:20:59: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:20:59: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:20:59: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:21:4: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:21:4: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:21:4: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:21:4: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:21:9: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:21:9: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:21:9: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:21:9: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:21:14: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:21:14: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:21:14: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:21:14: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:21:19: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:21:19: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:21:19: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:21:19: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:21:24: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:21:24: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:21:24: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:21:24: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:21:29: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:21:29: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:21:29: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:21:29: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:21:34: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:21:34: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:21:34: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:21:34: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:21:39: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:21:39: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:21:39: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:21:39: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:21:44: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:21:44: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:21:44: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:21:44: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:21:49: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:21:49: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:21:49: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:21:49: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:21:54: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:21:54: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:21:54: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:21:54: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:21:59: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:21:59: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:21:59: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:21:59: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:22:4: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:22:4: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:22:4: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:22:4: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:22:9: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:22:9: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:22:9: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:22:9: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:22:14: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:22:14: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:22:14: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:22:14: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:22:19: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:22:19: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:22:19: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:22:19: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:22:24: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:22:24: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:22:24: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:22:24: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:22:29: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:22:29: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:22:29: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:22:29: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:22:34: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:22:34: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:22:34: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:22:34: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:22:39: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:22:39: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:22:39: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:22:39: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:22:44: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:22:44: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:22:44: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:22:44: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:22:49: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:22:49: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:22:49: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:22:49: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:22:54: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:22:54: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:22:54: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:22:54: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:22:59: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:22:59: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:22:59: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:22:59: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:23:4: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:23:4: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:23:4: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:23:4: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:23:9: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:23:9: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:23:9: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:23:9: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:23:14: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:23:14: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:23:14: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:23:14: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:23:19: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:23:19: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:23:19: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:23:19: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:23:24: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:23:24: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:23:24: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:23:24: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:23:29: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:23:29: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:23:29: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:23:29: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:23:34: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:23:34: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:23:34: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:23:34: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:23:39: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:23:39: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:23:39: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:23:39: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:23:44: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:23:44: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:23:44: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:23:44: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:23:49: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:23:49: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:23:49: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:23:49: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:23:54: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:23:54: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:23:54: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:23:54: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:23:59: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:23:59: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:23:59: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:23:59: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:24:4: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:24:4: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:24:4: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:24:4: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:24:9: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:24:9: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:24:9: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:24:9: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:24:14: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:24:14: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:24:14: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:24:14: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:24:19: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:24:19: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:24:19: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:24:19: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:24:24: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:24:24: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:24:24: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:24:24: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:24:29: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:24:29: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:24:29: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:24:29: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:24:34: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:24:34: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:24:34: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:24:34: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:24:39: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:24:39: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:24:39: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:24:39: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:24:44: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:24:44: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:24:44: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:24:44: create sctp socket 
+$[INFO][sockMgr][__sockMgr_client_reconnect in sock_mgr.c:890] 2020.6.12 14:24:49: CUUP_E1_USERTASK ipv4 127.0.0.1:38462 reconnecting  
+$[ERROR][print_filter][vos_sctp_connectx in vos_socket.c:1028] 2020.6.12 14:24:49: sctp connectx 
+$[ERROR][print_filter][__sctp_one2one_client_create in vos_socket.c:1344] 2020.6.12 14:24:49: sctp_connectx 
+$[ERROR][print_filter][vos_sctp_client_one2one_create_bind in vos_socket.c:1669] 2020.6.12 14:24:49: create sctp socket 

@@ -1,0 +1,262 @@
+/******************************************************************************
+###############################################################################
+#   Copyright (c) [2017-2020] [ICT/CAS]                                        #
+#   Licensed under the ORAN Software License v1.0 (License)             #
+###############################################################################
+******************************************************************************/
+<?xml  version="1.0" encoding="UTF-8" standalone="no"?>
+<CuUpCfg>
+  <cfg_change_info>
+    <cell_id />
+    <struct>
+      <cell_1>
+        <struct_id />
+      </cell_1>
+      <cell_2>
+        <struct_id />
+      </cell_2>
+      <cell_3>
+        <struct_id />
+      </cell_3>
+      <cell_4>
+        <struct_id />
+      </cell_4>
+      <cell_5>
+        <struct_id />
+      </cell_5>
+      <cell_6>
+        <struct_id />
+      </cell_6>
+      <cell_7>
+        <struct_id />
+      </cell_7>
+      <cell_8>
+        <struct_id />
+      </cell_8>
+    </struct>
+    <global_info>
+      <change_struct_id />
+    </global_info>
+  </cfg_change_info>
+  <cfg_info>
+    <cuupBasicInfoCfg>
+      <gnbCuupId type="UINT64">1</gnbCuupId>
+      <gnbCuupName type="string">NJUPC1</gnbCuupName>
+      <cnSupportType type="UINT8">1<!--ENUMERATED (EPC,5GC,both)--></cnSupportType>
+      <cuupCapacity_presence type="UINT8">1<!--cuupCapacity配置标志位--></cuupCapacity_presence>
+      <cuupCapacity type="UINT8">255<!--取值范围（0…255）--></cuupCapacity>
+    </cuupBasicInfoCfg>
+    <cuupIpInfoList>
+      <cucIpAddrNum type="UINT8">1</cucIpAddrNum>
+      <cucIpList type="array" len="5">
+        <ipType type="UINT8">
+          <v>0</v>
+          <v>1</v>
+          <v>1</v>
+          <v>1</v>
+          <v>1</v>
+        </ipType>
+        <port type="UINT32">
+          <v>38462</v>
+          <v>1</v>
+          <v>1</v>
+          <v>1</v>
+          <v>1</v>
+        </port>
+        <ipv4Address type="IP_addr">
+          <v>127.0.0.1</v>
+          <v>1.1.1.1</v>
+          <v>1.1.1.1</v>
+          <v>1.1.1.1</v>
+          <v>1.1.1.1</v>
+        </ipv4Address>
+        <ipv6Address type="IP_addr">
+          <v>1.1.1.1</v>
+          <v>1.1.1.1</v>
+          <v>1.1.1.1</v>
+          <v>1.1.1.1</v>
+          <v>1.1.1.1</v>
+        </ipv6Address>
+      </cucIpList>
+      <cuupIpAddrNum type="UINT8">1</cuupIpAddrNum>
+      <cuupIpList type="array" len="5">
+        <ipType type="UINT8">
+          <v>0</v>
+          <v>1</v>
+          <v>1</v>
+          <v>1</v>
+          <v>1</v>
+        </ipType>
+        <port type="UINT32">
+          <v>2152</v>
+          <v>1</v>
+          <v>1</v>
+          <v>1</v>
+          <v>1</v>
+        </port>
+        <ipv4Address type="IP_addr">
+          <v>10.170.7.101</v>
+          <v>1.1.1.1</v>
+          <v>1.1.1.1</v>
+          <v>1.1.1.1</v>
+          <v>1.1.1.1</v>
+        </ipv4Address>
+        <ipv6Address type="IP_addr">
+          <v>1.1.1.1</v>
+          <v>1.1.1.1</v>
+          <v>1.1.1.1</v>
+          <v>1.1.1.1</v>
+          <v>1.1.1.1</v>
+        </ipv6Address>
+      </cuupIpList>
+    </cuupIpInfoList>
+    <plmnInfo>
+      <plmnIdNum type="UINT8"><!--取值范围1...12(协议规定)，目前暂定取值范围1...5-->1</plmnIdNum>
+      <plmnIdList type="array" len="5">
+        <MCC_Presence type="UINT8">
+          <v>1</v>
+          <v>1</v>
+          <v>2</v>
+          <v>3</v>
+          <v>4</v>
+          <!--MCC配置标志位-->
+        </MCC_Presence>
+        <MCC type="array" len="3">
+          <v>4</v>
+          <v>6</v>
+          <v>0</v>
+          <v>0</v>
+          <v>1</v>
+          <v>2</v>
+          <v>0</v>
+          <v>1</v>
+          <v>2</v>
+          <v>0</v>
+          <v>1</v>
+          <v>2</v>
+          <v>0</v>
+          <v>1</v>
+          <v>2</v>
+        </MCC>
+        <mncNum type="UINT8">
+          <v>2</v>
+          <v>1</v>
+          <v>2</v>
+          <v>3</v>
+          <v>4</v>
+          <!--取值2或者3-->
+        </mncNum>
+        <MNC type="array" len="3">
+          <v>1</v>
+          <v>1</v>
+          <v>0</v>
+          <v>0</v>
+          <v>1</v>
+          <v>2</v>
+          <v>0</v>
+          <v>1</v>
+          <v>2</v>
+          <v>0</v>
+          <v>1</v>
+          <v>2</v>
+          <v>0</v>
+          <v>1</v>
+          <v>2</v>
+        </MNC>
+      </plmnIdList>
+    </plmnInfo>
+    <qosSupportList>
+      <qosSupportNum type="UINT8">1</qosSupportNum>
+      <qosSupportInfo type="array" len="1">
+        <plmnIdx type="UINT8">
+          <v>0</v>
+        </plmnIdx>
+        <fiveQI type="UINT8">
+          <!--取值范围:0~255-->
+          <v>6</v>
+        </fiveQI>
+        <qoSPrirotyLevel_presence type="UINT8">
+          <!--qoSPrirotyLevel配置标志位-->
+          <v>1</v>
+        </qoSPrirotyLevel_presence>
+        <qoSPrirotyLevel type="UINT8">
+          <!--取值范围:0~127-->
+          <v>60</v>
+        </qoSPrirotyLevel>
+        <averagingWindow_presence type="UINT8">
+          <!--averagingWindow配置标志位-->
+          <v>0</v>
+        </averagingWindow_presence>
+        <averagingWindow type="UINT16">
+          <!--取值范围:0~4095-->
+          <v>1</v>
+        </averagingWindow>
+        <maxDataBurstVolume_presence type="UINT16">
+          <!--maxDataBurstVolume配置标志位-->
+          <v>0</v>
+        </maxDataBurstVolume_presence>
+        <maxDataBurstVolume type="UINT16">
+          <!--取值范围:0~4095-->
+          <v>1</v>
+        </maxDataBurstVolume>
+      </qosSupportInfo>
+    </qosSupportList>
+    <sliceSupportList>
+      <sliceSupportNum type="UINT8">1<!--取值范围1~1024(协议规定),目前取值范围1...3--></sliceSupportNum>
+      <sliceSupportInfo type="array" len="3">
+        <PlmnIdx type="UINT8">
+          <v>1</v>
+          <v>2</v>
+          <v>3</v>
+        </PlmnIdx>
+        <SST type="UINT8">
+          <!--为了支持网络切片,与SD字段可以组成S-NSSAI-->
+          <v>1</v>
+          <v>2</v>
+          <v>3</v>
+        </SST>
+        <SD_presence type="UINT8">
+          <!--SD配置标志位-->
+          <v>0</v>
+          <v>2</v>
+          <v>3</v>
+        </SD_presence>
+        <SD type="UINT8">
+          <!--SD:24-->
+          <v>1</v>
+          <v>2</v>
+          <v>3</v>
+        </SD>
+      </sliceSupportInfo>
+    </sliceSupportList>
+    <cellIdSupportList>
+      <cellSupportNum type="UINT8">1<!--取值范围1~1024(协议规定),目前取值范围1...3--></cellSupportNum>
+      <cellIdInfo type="array" len="10">
+        <plmnIdx type="UINT8">
+          <v>0</v>
+          <v>2</v>
+          <v>3</v>
+          <v>4</v>
+          <v>5</v>
+          <v>6</v>
+          <v>7</v>
+          <v>8</v>
+          <v>9</v>
+          <v>10</v>
+        </plmnIdx>
+        <cellGlobalId type="UINT64">
+          <v>1</v>
+          <v>2</v>
+          <v>3</v>
+          <v>4</v>
+          <v>5</v>
+          <v>6</v>
+          <v>7</v>
+          <v>8</v>
+          <v>9</v>
+          <v>10</v>
+        </cellGlobalId>
+      </cellIdInfo>
+    </cellIdSupportList>
+  </cfg_info>
+</CuUpCfg>

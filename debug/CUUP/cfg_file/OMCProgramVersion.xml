@@ -1,0 +1,22 @@
+/******************************************************************************
+###############################################################################
+#   Copyright (c) [2017-2020] [ICT/CAS]                                        #
+#   Licensed under the ORAN Software License v1.0 (License)             #
+###############################################################################
+******************************************************************************/
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<MainCtrlLocal>
+	<version>
+		<om_sw_version>OmV0.5</om_sw_version>
+		<ne_cfg_version>NeCfgV1.0</ne_cfg_version>
+		<mac_sw_version>MacSwV1.0</mac_sw_version>
+		<phy_sw_version>PhySwV1.0</phy_sw_version>
+		<fpga1_fw_version>FpgaFwV1.0</fpga1_fw_version>
+		<fpga2_fw_version>FpgaFwV1.0</fpga2_fw_version>
+		<rru_fw_version>RruFwV1.0</rru_fw_version>
+		<rru_sw_version>RruSwV1.0</rru_sw_version>
+		<protocol_DU_sw_version>Pro_DU_Sw_V1.0</protocol_DU_sw_version>
+		<protocol_CUCP_sw_version>Pro_CUCP_Sw_V1.0</protocol_CUCP_sw_version>
+		<protocol_CUUP_sw_version>Pro_CUUP_Sw_V1.0</protocol_CUUP_sw_version>		
+	</version>
+</MainCtrlLocal>
